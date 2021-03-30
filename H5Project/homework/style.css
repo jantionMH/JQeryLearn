@@ -1,0 +1,23 @@
+/* 分类 */
+/* 1.元素选择器   */
+h1{
+    color: pink;
+}
+
+/* 2.类选择器 */
+.animal{
+    color: plum;
+}
+
+/* 3.ID选择器 */
+#myID{
+    color: purple;
+    font-size: 50px;
+}
+
+/* 4.组合选择器 */
+nav li{
+    border:solid red 2px;
+    margin: 3px;
+}
+/* 5.伪类选择器 */

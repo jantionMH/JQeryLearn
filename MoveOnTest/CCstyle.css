@@ -1,0 +1,149 @@
+/* General setup */
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url('./webfonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+       url('./webfonts/sourcesanspro-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'chunkfiveregular';
+  src: url('./webfonts/chunkfive-regular-webfont.woff2') format('woff2'),
+       url('./webfonts/chunkfive-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 20px;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+ 
+  
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+P{
+  font-family: serif;
+  line-height:30px;
+  font-size: 20px;
+
+}
+
+h1,h2{
+  font-family: 'chunkfiveregular';
+  line-height: 25px;
+  
+  
+}
+h1{
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 35px;
+
+}
+h2{
+  font-size: 25px;
+  
+}
+
+.firstp{
+  text-indent: 20px;
+}
+
+
+a:link{
+  color: #a66;
+}
+a:visited{
+  color: rgb(230, 171, 171);
+}
+a:focus{
+ color: cadetblue;
+ text-decoration: none;
+}
+a:hover{
+  color: rgb(146, 37, 83);
+  text-decoration: none;
+}
+a:active{
+  background-color: #a66;
+}
+a[href*='http']{
+  background: url(./external-link-52.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+} 
+li{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 25px;
+  list-style-type: square;
+}
+ol li{
+  list-style-type: decimal;
+}
+nav li{
+  font-size: x-large;
+  line-height: 80px;
+  list-style-type:none;
+  border: solid #a66 1px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+nav a {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+}
+nav a:hover,nav a:focus{
+  background-color: #a66;
+  text-decoration: none;
+  color: white;
+
+}
